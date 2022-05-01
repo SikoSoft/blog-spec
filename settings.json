@@ -19,7 +19,8 @@
     },
     "min_score_auto_publish": {
         "type": "number",
-        "default": 0
+        "dataType": "float",
+        "default": 0.5
     },
     "toast_life": {
         "type": "number",
