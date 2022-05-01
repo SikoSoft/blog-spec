@@ -1,0 +1,55 @@
+{
+    "role_admin": {
+        "type": "number",
+        "default": 1,
+        "size": 6
+    },
+    "role_guest": {
+        "type": "number",
+        "default": 2,
+        "size": 6
+    },
+    "enable_comments": {
+        "type": "toggle",
+        "default": 1
+    },
+    "use_captcha": {
+        "type": "toggle",
+        "default": 0
+    },
+    "min_score_auto_publish": {
+        "type": "number",
+        "default": 0
+    },
+    "toast_life": {
+        "type": "number",
+        "default": 5000
+    },
+    "per_load": {
+        "type": "number",
+        "default": 10
+    },
+    "teaser_mode": {
+        "type": "toggle",
+        "default": 1
+    },
+    "auto_entry_url": {
+        "type": "toggle",
+        "default": 1
+    },
+    "further_reading_min_tags": {
+        "type": "number",
+        "default": 1
+    },
+    "further_reading_max": {
+        "type": "number",
+        "default": 1
+    },
+    "show_sidebar": {
+        "type": "toggle",
+        "default": 1
+    },
+    "github_feed": {
+        "type": "text"
+    }
+}
