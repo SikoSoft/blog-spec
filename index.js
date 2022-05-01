@@ -1,7 +1,7 @@
-import rights from "./rights.json";
-import settings from "./settings.json";
+const rights = require("./rights.json");
+const settings = require("./settings.json");
 
-export default {
+module.exports = {
   rights,
   settings,
 };
