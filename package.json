@@ -1,6 +1,6 @@
 {
   "name": "blog-spec",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "\"Data model contract between blog-server and blog-client\"",
   "main": "index.js",
   "scripts": {
