@@ -65,5 +65,14 @@
     {
         "id": "github_feed",
         "type": "text"
+    },
+    {
+        "id": "show_powered_by",
+        "type": "toggle",
+        "default": 1
+    },
+    {
+        "id": "footer_body",
+        "type": "text"
     }
 ]
