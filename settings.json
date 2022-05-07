@@ -1,13 +1,17 @@
 [
     {
         "id": "role_admin",
-        "type": "number",
+        "type": "list",
+        "dataType": "int",
+        "listSource": "roles",
         "default": 1,
         "size": 6
     },
     {
         "id": "role_guest",
-        "type": "number",
+        "type": "list",
+        "dataType": "int",
+        "listSource": "roles",
         "default": 2,
         "size": 6
     },

@@ -1,6 +1,7 @@
 {
-    "number": "int",
-    "float": "float",
-    "text": "varchar",
-    "toggle": "int"
+  "number": "int",
+  "float": "float",
+  "text": "varchar",
+  "toggle": "int",
+  "list": "varchar"
 }
