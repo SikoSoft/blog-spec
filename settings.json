@@ -29,17 +29,20 @@
         "id": "min_score_auto_publish",
         "type": "number",
         "dataType": "float",
-        "default": 0.5
+        "default": 0.5,
+        "maxLength": 10
     },
     {
         "id": "toast_life",
         "type": "number",
-        "default": 5000
+        "default": 5000,
+        "maxLength": 5
     },
     {
         "id": "per_load",
         "type": "number",
-        "default": 10
+        "default": 10,
+        "maxLength": 3
     },
     {
         "id": "teaser_mode",
@@ -54,12 +57,14 @@
     {
         "id": "further_reading_min_tags",
         "type": "number",
-        "default": 1
+        "default": 1,
+        "maxLength": 3
     },
     {
         "id": "further_reading_max",
         "type": "number",
-        "default": 1
+        "default": 1,
+        "maxLength": 3
     },
     {
         "id": "show_sidebar",
