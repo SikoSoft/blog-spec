@@ -1,0 +1,10 @@
+{
+  "id": "filters",
+  "attributes": [
+    { "id": "text", "type": "number", "maxLength": 64 },
+    { "id": "label", "type": "text", "maxLength": 255 },
+    { "id": "image", "type": "text", "maxLength": 255 },
+    { "id": "order", "type": "number", "default": 0, "maxLength": 3 },
+    { "id": "enabled", "type": "number", "default": 0, "maxLength": 1 }
+  ]
+}

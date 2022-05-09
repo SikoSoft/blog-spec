@@ -1,0 +1,9 @@
+{
+  "id": "tokens_consumed",
+  "attributes": [
+    { "id": "code", "type": "text", "maxLength": 64 },
+    { "id": "ip", "type": "text", "maxLength": 15 },
+    { "id": "time", "type": "number", "default": 0, "maxLength": 10 },
+    { "id": "session", "type": "text", "maxLength": 255 }
+  ]
+}

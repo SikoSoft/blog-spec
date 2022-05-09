@@ -1,0 +1,13 @@
+{
+  "id": "entries",
+  "attributes": [
+    { "id": "id", "type": "text", "maxLength": 255 },
+    { "id": "title", "type": "text", "maxLength": 255 },
+    { "id": "body", "type": "longtext" },
+    { "id": "created", "type": "number", "default": 0, "maxLength": 10 },
+    { "id": "last_edited", "type": "number", "default": 0, "maxLength": 10 },
+    { "id": "public", "type": "number", "default": 0, "maxLength": 1 },
+    { "id": "publish_at", "type": "number", "default": 0, "maxLength": 10 },
+    { "id": "published_at", "type": "number", "default": 0, "maxLength": 10 }
+  ]
+}

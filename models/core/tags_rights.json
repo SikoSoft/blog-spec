@@ -1,0 +1,7 @@
+{
+  "id": "tags_role",
+  "attributes": [
+    { "id": "tag", "type": "text", "maxLength": 64 },
+    { "id": "role", "type": "number", "default": 0, "maxLength": 6 }
+  ]
+}

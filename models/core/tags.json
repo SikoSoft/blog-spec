@@ -1,0 +1,7 @@
+{
+  "id": "tags",
+  "attributes": [
+    { "id": "tag", "type": "text", "maxLength": 64 },
+    { "id": "weight", "type": "float", "default": 0 }
+  ]
+}

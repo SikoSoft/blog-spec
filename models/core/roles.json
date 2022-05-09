@@ -1,0 +1,8 @@
+{
+  "id": "roles",
+  "attributes": [
+    { "id": "id", "type": "number", "default": 0, "maxLength": 10 },
+    { "id": "name", "type": "text", "maxLength": 32 },
+    { "id": "token", "type": "text", "maxLength": 64 }
+  ]
+}

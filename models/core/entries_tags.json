@@ -1,0 +1,7 @@
+{
+  "id": "entries_tags",
+  "attributes": [
+    { "id": "entry_id", "type": "text", "maxLength": 255 },
+    { "id": "tag", "type": "text", "maxLength": 64 }
+  ]
+}
