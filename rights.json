@@ -1,58 +1,62 @@
 [
-    {
-        "id": "create_entry",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "update_entry",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "delete_entry",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "view_draft",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "view_unpublished_comment",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "publish_comment",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "delete_comment",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "post_comment",
-        "defaultRoles": [ 1, 2 ]
-    },
-    {
-        "id": "manage_settings",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "manage_roles",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "manage_rights",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "manage_tokens",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "manage_tag_policies",
-        "defaultRoles": [ 1 ]
-    },
-    {
-        "id": "manage_filters",
-        "defaultRoles": [ 1 ]
-    }
+  {
+    "id": "create_entry",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "update_entry",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "delete_entry",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "view_draft",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "view_unpublished_comment",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "publish_comment",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "delete_comment",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "post_comment",
+    "defaultRoles": [1, 2]
+  },
+  {
+    "id": "manage_settings",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "manage_roles",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "manage_rights",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "manage_tokens",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "manage_tag_policies",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "manage_filters",
+    "defaultRoles": [1]
+  },
+  {
+    "id": "manage_images",
+    "defaultRoles": [1]
+  }
 ]
