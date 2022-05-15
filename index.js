@@ -5,7 +5,7 @@ const roles = require("./roles.json");
 const settings = require("./settings.json");
 const typeMap = require("./typeMap.json");
 
-module.exports = {
+const spec = {
   version,
   errorCodes,
   rights,
@@ -13,3 +13,6 @@ module.exports = {
   settings,
   typeMap,
 };
+
+module.exports = spec;
+module.exports.default = spec;
