@@ -1,4 +1,4 @@
-const { version } = require("./package.json");
+const { version, displayName } = require("./package.json");
 const errorCodes = require("./errorCodes.json");
 const rights = require("./rights.json");
 const roles = require("./roles.json");
@@ -7,6 +7,7 @@ const typeMap = require("./typeMap.json");
 
 const spec = {
   version,
+  displayName,
   errorCodes,
   rights,
   roles,
