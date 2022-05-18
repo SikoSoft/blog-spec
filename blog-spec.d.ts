@@ -1,3 +1,4 @@
+export declare const contexts: Array<Object>;
 export declare const errorCodes: Record<string, number>;
 export declare const rights: Array<any>;
 export declare const roles: Array<any>;
