@@ -1,87 +1,91 @@
 [
-    {
-        "id": "role_admin",
-        "type": "list",
-        "dataType": "int",
-        "listSource": "roles",
-        "default": 1,
-        "size": 6
-    },
-    {
-        "id": "role_guest",
-        "type": "list",
-        "dataType": "int",
-        "listSource": "roles",
-        "default": 2,
-        "size": 6
-    },
-    {
-        "id": "enable_comments",
-        "type": "toggle",
-        "default": 1
-    },
-    {
-        "id": "use_captcha",
-        "type": "toggle",
-        "default": 0
-    },
-    {
-        "id": "min_score_auto_publish",
-        "type": "number",
-        "dataType": "float",
-        "default": 0.5,
-        "maxLength": 10
-    },
-    {
-        "id": "toast_life",
-        "type": "number",
-        "default": 5000,
-        "maxLength": 5
-    },
-    {
-        "id": "per_load",
-        "type": "number",
-        "default": 10,
-        "maxLength": 3
-    },
-    {
-        "id": "teaser_mode",
-        "type": "toggle",
-        "default": 1
-    },
-    {
-        "id": "auto_entry_url",
-        "type": "toggle",
-        "default": 1
-    },
-    {
-        "id": "further_reading_min_tags",
-        "type": "number",
-        "default": 1,
-        "maxLength": 3
-    },
-    {
-        "id": "further_reading_max",
-        "type": "number",
-        "default": 1,
-        "maxLength": 3
-    },
-    {
-        "id": "show_sidebar",
-        "type": "toggle",
-        "default": 1
-    },
-    {
-        "id": "github_feed",
-        "type": "text"
-    },
-    {
-        "id": "show_powered_by",
-        "type": "toggle",
-        "default": 1
-    },
-    {
-        "id": "footer_body",
-        "type": "text"
-    }
+  {
+    "id": "role_admin",
+    "type": "list",
+    "dataType": "int",
+    "listSource": "roles",
+    "default": 1,
+    "size": 6
+  },
+  {
+    "id": "role_guest",
+    "type": "list",
+    "dataType": "int",
+    "listSource": "roles",
+    "default": 2,
+    "size": 6
+  },
+  {
+    "id": "enable_comments",
+    "type": "toggle",
+    "default": 1
+  },
+  {
+    "id": "use_captcha",
+    "type": "toggle",
+    "default": 0
+  },
+  {
+    "id": "min_score_auto_publish",
+    "type": "number",
+    "dataType": "float",
+    "default": 0.5,
+    "maxLength": 10
+  },
+  {
+    "id": "toast_life",
+    "type": "number",
+    "default": 5000,
+    "maxLength": 5
+  },
+  {
+    "id": "per_load",
+    "type": "number",
+    "default": 10,
+    "maxLength": 3
+  },
+  {
+    "id": "teaser_mode",
+    "type": "toggle",
+    "default": 1
+  },
+  {
+    "id": "auto_entry_url",
+    "type": "toggle",
+    "default": 1
+  },
+  {
+    "id": "further_reading_min_tags",
+    "type": "number",
+    "default": 1,
+    "maxLength": 3
+  },
+  {
+    "id": "further_reading_max",
+    "type": "number",
+    "default": 1,
+    "maxLength": 3
+  },
+  {
+    "id": "show_sidebar",
+    "type": "toggle",
+    "default": 1
+  },
+  {
+    "id": "github_feed",
+    "type": "text"
+  },
+  {
+    "id": "show_powered_by",
+    "type": "toggle",
+    "default": 1
+  },
+  {
+    "id": "footer_body",
+    "type": "text"
+  },
+  {
+    "id": "analyze_comments_sentiment",
+    "type": "toggle"
+  }
 ]
