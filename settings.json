@@ -87,5 +87,13 @@
   {
     "id": "analyze_comments_sentiment",
     "type": "toggle"
+  },
+  {
+    "id": "header_banner",
+    "type": "list",
+    "dataType": "int",
+    "listSource": "banners",
+    "default": 1,
+    "size": 6
   }
 ]

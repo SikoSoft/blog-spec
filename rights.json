@@ -62,5 +62,9 @@
   {
     "id": "upload_image",
     "defaultRoles": [1]
+  },
+  {
+    "id": "manage_banners",
+    "defaultRoles": [1]
   }
 ]
