@@ -17,7 +17,7 @@
   {
     "id": "view_draft",
     "defaultRoles": [1],
-    "crudDependencies": [{ "entity": "draft", "method": "GET" }]
+    "crudDependencies": [{ "entity": "drafts", "method": "GET" }]
   },
   {
     "id": "view_unpublished_comment",
