@@ -45,7 +45,8 @@
       { "entity": "setting", "method": "POST" },
       { "entity": "setting", "method": "PUT" },
       { "entity": "setting", "method": "DELETE" },
-      { "entity": "settings", "method": "GET" }
+      { "entity": "settings", "method": "GET" },
+      { "entity": "themes", "method": "GET" }
     ]
   },
   {
