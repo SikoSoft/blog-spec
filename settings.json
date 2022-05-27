@@ -95,13 +95,5 @@
     "listSource": "banners",
     "default": 1,
     "size": 6
-  },
-  {
-    "id": "theme",
-    "type": "list",
-    "dataType": "varchar",
-    "size": 64,
-    "listSource": "themes",
-    "default": "default"
   }
 ]
