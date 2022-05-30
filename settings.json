@@ -106,6 +106,6 @@
     "id": "token_flood_timespan",
     "type": "number",
     "size": 6,
-    "default": 300000
+    "default": 300
   }
 ]
