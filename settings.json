@@ -95,5 +95,17 @@
     "listSource": "banners",
     "default": 1,
     "size": 6
+  },
+  {
+    "id": "token_flood_attempts",
+    "type": "number",
+    "size": 6,
+    "default": 5
+  },
+  {
+    "id": "token_flood_timespan",
+    "type": "number",
+    "size": 6,
+    "default": 300000
   }
 ]
