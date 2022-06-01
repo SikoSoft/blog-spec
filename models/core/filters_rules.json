@@ -2,7 +2,7 @@
   "id": "filters_rules",
   "attributes": [
     { "id": "id", "type": "number", "autoIncremenet": true, "primary": true },
-    { "filter_id": "text", "type": "number", "maxLength": 64 },
+    { "id": "filter_id", "type": "text", "maxLength": 64 },
     { "id": "type", "type": "text", "maxLength": 32 },
     { "id": "value", "type": "text", "maxLength": 255 },
     { "id": "operator", "type": "text", "maxLength": 16 }
