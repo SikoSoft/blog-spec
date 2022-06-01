@@ -120,5 +120,16 @@
       { "entity": "banner", "method": "DELETE" },
       { "entity": "banners", "method": "GET" }
     ]
+  },
+  {
+    "id": "manage_blocks",
+    "defaultRoles": [1],
+    "crudDependencies": [
+      { "entity": "block", "method": "GET" },
+      { "entity": "block", "method": "POST" },
+      { "entity": "block", "method": "PUT" },
+      { "entity": "block", "method": "DELETE" },
+      { "entity": "blocks", "method": "GET" }
+    ]
   }
 ]

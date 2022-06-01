@@ -1,0 +1,20 @@
+{
+  "id": "blocks",
+  "attributes": [
+    {
+      "id": "id",
+      "type": "number",
+      "maxLength": 10,
+      "autoIncrement": true,
+      "primary": true
+    },
+    { "id": "name", "type": "text", "maxLength": 64 },
+    { "id": "created", "type": "number", "dataType": "int", "maxLength": 10 },
+    {
+      "id": "last_edited",
+      "type": "number",
+      "dataType": "int",
+      "maxLength": 10
+    }
+  ]
+}

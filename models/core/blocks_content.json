@@ -1,0 +1,17 @@
+{
+  "id": "blocks_content",
+  "attributes": [
+    {
+      "id": "id",
+      "type": "number",
+      "maxLength": 10,
+      "autoIncrement": true,
+      "primary": true
+    },
+    { "id": "block_id", "type": "number", "default": 0, "maxLength": 10 },
+    { "id": "created", "type": "number", "maxLength": 10 },
+    { "id": "last_edited", "type": "number", "maxLength": 10 },
+    { "id": "type", "type": "number", "default": 0, "maxLength": 3 },
+    { "id": "content", "type": "longtext" }
+  ]
+}
