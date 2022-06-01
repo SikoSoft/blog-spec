@@ -1,15 +1,15 @@
 {
   "id": "entries",
   "attributes": [
-    { "id": "id", "type": "text", "maxLength": 255 },
-    { "id": "title", "type": "text", "maxLength": 255 },
-    { "id": "description", "type": "longtext" },
-    { "id": "keywords", "type": "longtext" },
-    { "id": "body", "type": "longtext" },
-    { "id": "created", "type": "number", "default": 0, "maxLength": 10 },
-    { "id": "last_edited", "type": "number", "default": 0, "maxLength": 10 },
-    { "id": "public", "type": "number", "default": 0, "maxLength": 1 },
-    { "id": "publish_at", "type": "number", "default": 0, "maxLength": 10 },
-    { "id": "published_at", "type": "number", "default": 0, "maxLength": 10 }
+    { "id": "id", "dataType": "varchar", "maxLength": 255 },
+    { "id": "title", "dataType": "varchar", "maxLength": 255 },
+    { "id": "description", "dataType": "longtext" },
+    { "id": "keywords", "dataType": "longtext" },
+    { "id": "body", "dataType": "longtext" },
+    { "id": "created", "dataType": "int", "default": 0, "maxLength": 10 },
+    { "id": "last_edited", "dataType": "int", "default": 0, "maxLength": 10 },
+    { "id": "public", "dataType": "int", "default": 0, "maxLength": 1 },
+    { "id": "publish_at", "dataType": "int", "default": 0, "maxLength": 10 },
+    { "id": "published_at", "dataType": "int", "default": 0, "maxLength": 10 }
   ]
 }

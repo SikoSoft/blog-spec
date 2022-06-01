@@ -1,7 +1,7 @@
 {
   "id": "image_sizes",
   "attributes": [
-    { "id": "width", "type": "number", "default": 0, "maxLength": 6 },
-    { "id": "height", "type": "number", "default": 0, "maxLength": 6 }
+    { "id": "width", "dataType": "int", "default": 0, "maxLength": 6 },
+    { "id": "height", "dataType": "int", "default": 0, "maxLength": 6 }
   ]
 }

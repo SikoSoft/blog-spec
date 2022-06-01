@@ -1,9 +1,9 @@
 {
   "id": "settings",
   "attributes": [
-    { "id": "id", "type": "varchar", "maxLength": 255 },
-    { "id": "int", "type": "int", "default": 0, "maxLength": 10 },
-    { "id": "float", "type": "float", "default": 0 },
-    { "id": "varchar", "type": "varchar", "maxLength": 255 }
+    { "id": "id", "dataType": "varchar", "maxLength": 255 },
+    { "id": "int", "dataType": "int", "default": 0, "maxLength": 10 },
+    { "id": "float", "dataType": "float", "default": 0 },
+    { "id": "varchar", "dataType": "varchar", "maxLength": 255 }
   ]
 }

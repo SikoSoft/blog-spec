@@ -1,10 +1,10 @@
 {
   "id": "filters_rules",
   "attributes": [
-    { "id": "id", "type": "number", "autoIncremenet": true, "primary": true },
-    { "id": "filter_id", "type": "text", "maxLength": 64 },
-    { "id": "type", "type": "text", "maxLength": 32 },
-    { "id": "value", "type": "text", "maxLength": 255 },
-    { "id": "operator", "type": "text", "maxLength": 16 }
+    { "id": "id", "dataType": "int", "autoIncremenet": true, "primary": true },
+    { "id": "filter_id", "dataType": "varchar", "maxLength": 64 },
+    { "id": "type", "dataType": "varchar", "maxLength": 32 },
+    { "id": "value", "dataType": "varchar", "maxLength": 255 },
+    { "id": "operator", "dataType": "varchar", "maxLength": 16 }
   ]
 }

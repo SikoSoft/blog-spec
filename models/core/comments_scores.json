@@ -1,7 +1,7 @@
 {
   "id": "comments_scores",
   "attributes": [
-    { "id": "comment_id", "type": "number" },
-    { "id": "score", "type": "float" }
+    { "id": "comment_id", "dataType": "int" },
+    { "id": "score", "dataType": "float" }
   ]
 }

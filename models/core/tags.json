@@ -1,7 +1,7 @@
 {
   "id": "tags",
   "attributes": [
-    { "id": "tag", "type": "text", "maxLength": 64 },
-    { "id": "weight", "type": "float", "default": 0 }
+    { "id": "tag", "dataType": "varchar", "maxLength": 64 },
+    { "id": "weight", "dataType": "float", "default": 0 }
   ]
 }

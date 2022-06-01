@@ -1,8 +1,8 @@
 {
   "id": "tokens_invalid_attempts",
   "attributes": [
-    { "id": "code", "type": "text", "maxLength": 64 },
-    { "id": "ip", "type": "text", "maxLength": 15 },
-    { "id": "time", "type": "number", "maxLength": 10 }
+    { "id": "code", "dataType": "varchar", "maxLength": 64 },
+    { "id": "ip", "dataType": "varchar", "maxLength": 15 },
+    { "id": "time", "dataType": "int", "maxLength": 10 }
   ]
 }

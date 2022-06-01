@@ -1,7 +1,7 @@
 {
   "id": "tags_rights",
   "attributes": [
-    { "id": "tag", "type": "text", "maxLength": 64 },
-    { "id": "role", "type": "number", "default": 0, "maxLength": 6 }
+    { "id": "tag", "dataType": "varchar", "maxLength": 64 },
+    { "id": "role", "dataType": "int", "default": 0, "maxLength": 6 }
   ]
 }

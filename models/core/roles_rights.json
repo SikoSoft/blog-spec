@@ -1,7 +1,7 @@
 {
   "id": "roles_rights",
   "attributes": [
-    { "id": "role", "type": "number", "default": 0, "maxLength": 6 },
-    { "id": "action", "type": "text", "maxLength": 64 }
+    { "id": "role", "dataType": "int", "default": 0, "maxLength": 6 },
+    { "id": "action", "dataType": "varchar", "maxLength": 64 }
   ]
 }

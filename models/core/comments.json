@@ -1,11 +1,11 @@
 {
   "id": "comments",
   "attributes": [
-    { "id": "id", "type": "number", "autoIncrement": true, "primary": true },
-    { "id": "entry_id", "type": "text", "maxLength": 255 },
-    { "id": "name", "type": "text", "maxLength": 64 },
-    { "id": "message", "type": "longtext" },
-    { "id": "time", "type": "number", "default": 0, "maxLength": 10 },
-    { "id": "public", "type": "number", "default": 0 }
+    { "id": "id", "dataType": "int", "autoIncrement": true, "primary": true },
+    { "id": "entry_id", "dataType": "varchar", "maxLength": 255 },
+    { "id": "name", "dataType": "varchar", "maxLength": 64 },
+    { "id": "message", "dataType": "longtext" },
+    { "id": "time", "dataType": "int", "default": 0, "maxLength": 10 },
+    { "id": "public", "dataType": "int", "default": 0 }
   ]
 }
