@@ -129,6 +129,14 @@
       { "entity": "block", "method": "POST" },
       { "entity": "block", "method": "PUT" },
       { "entity": "block", "method": "DELETE" },
+      { "entity": "blockContent", "method": "GET" },
+      { "entity": "blockContent", "method": "POST" },
+      { "entity": "blockContent", "method": "PUT" },
+      { "entity": "blockContent", "method": "DELETE" },
+      { "entity": "blockContext", "method": "GET" },
+      { "entity": "blockContext", "method": "POST" },
+      { "entity": "blockContext", "method": "PUT" },
+      { "entity": "blockContext", "method": "DELETE" },
       { "entity": "blocks", "method": "GET" }
     ]
   }
