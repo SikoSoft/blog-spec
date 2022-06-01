@@ -1,7 +1,7 @@
 {
   "id": "filters",
   "attributes": [
-    { "id": "text", "dataType": "varchar", "maxLength": 64 },
+    { "id": "id", "dataType": "varchar", "maxLength": 64 },
     { "id": "label", "dataType": "varchar", "maxLength": 255 },
     { "id": "image", "dataType": "varchar", "maxLength": 255 },
     { "id": "order", "dataType": "int", "default": 0, "maxLength": 3 },
