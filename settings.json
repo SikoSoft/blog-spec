@@ -107,5 +107,21 @@
     "type": "number",
     "size": 6,
     "default": 300
+  },
+  {
+    "id": "sidebar_block",
+    "type": "list",
+    "dataType": "int",
+    "listSource": "blocks",
+    "default": 0,
+    "size": 6
+  },
+  {
+    "id": "footer_block",
+    "type": "list",
+    "dataType": "int",
+    "listSource": "blocks",
+    "default": 0,
+    "size": 6
   }
 ]
