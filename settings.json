@@ -81,10 +81,6 @@
     "default": 1
   },
   {
-    "id": "footer_body",
-    "type": "text"
-  },
-  {
     "id": "analyze_comments_sentiment",
     "type": "toggle"
   },
