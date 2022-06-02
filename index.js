@@ -5,6 +5,7 @@ const rights = require("./rights.json");
 const roles = require("./roles.json");
 const settings = require("./settings.json");
 const typeMap = require("./typeMap.json");
+const blockTypes = require("./blockTypes.json");
 
 // I absofuckinglylutely hate that I have to hardcode a god damn list of files because
 // there is no fucking consistent supported way to import files from a directory, without
@@ -45,6 +46,7 @@ const spec = {
   settings,
   typeMap,
   models,
+  blockTypes,
 };
 
 module.exports = spec;
