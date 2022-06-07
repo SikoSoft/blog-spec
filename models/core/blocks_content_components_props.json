@@ -1,0 +1,11 @@
+{
+  "id": "blocks_content_components_props",
+  "attributes": [
+    { "id": "content_id", "dataType": "int", "default": 0, "maxLength": 10 },
+    { "id": "name", "dataType": "varchar", "maxLength": 64 },
+    { "id": "int", "dataType": "int", "default": 0, "maxLength": 10 },
+    { "id": "float", "dataType": "float", "default": 0 },
+    { "id": "varchar", "dataType": "varchar", "maxLength": 255 },
+    { "id": "longtext", "dataType": "longtext" }
+  ]
+}

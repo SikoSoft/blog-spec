@@ -12,6 +12,7 @@ const blockTypes = require("./blockTypes.json");
 // dragging in a fucking library for something as trivial as this
 // Webpack no longer supports polyfilling node packages!
 const modelsList = [
+  "blocks_content_components_props",
   "blocks_content",
   "blocks_context",
   "blocks",
