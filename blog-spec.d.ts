@@ -23,3 +23,5 @@ export declare const rights: Array<any>;
 export declare const roles: Array<any>;
 export declare const settings: Array<any>;
 export declare const typeMap: Object;
+export declare const models: Array<any>;
+export declare const blockTypes: Record<string, number>;
