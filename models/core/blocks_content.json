@@ -12,6 +12,7 @@
     { "id": "created", "dataType": "int", "maxLength": 10 },
     { "id": "last_edited", "dataType": "int", "maxLength": 10 },
     { "id": "type", "dataType": "int", "default": 0, "maxLength": 3 },
-    { "id": "content", "dataType": "longtext" }
+    { "id": "content", "dataType": "longtext" },
+    { "id": "order", "dataType": "int", "default": 0, "maxLength": 3 }
   ]
 }
