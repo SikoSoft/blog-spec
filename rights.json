@@ -104,7 +104,12 @@
   {
     "id": "manage_images",
     "defaultRoles": [1],
-    "crudDependencies": [{ "entity": "imageSizes", "method": "GET" }]
+    "crudDependencies": [
+      { "entity": "imageSizes", "method": "GET" },
+      { "entity": "imageSize", "method": "PUT" },
+      { "entity": "imageSize", "method": "POST" },
+      { "entity": "imageSize", "method": "DELETE" }
+    ]
   },
   {
     "id": "upload_image",
