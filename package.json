@@ -1,7 +1,7 @@
 {
   "name": "blog-spec",
   "displayName": "Untitled Blog Project",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "description": "\"Data model contract between blog-server and blog-client\"",
   "main": "index.js",
   "scripts": {},

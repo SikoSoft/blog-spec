@@ -4,6 +4,6 @@
     { "id": "file", "dataType": "varchar", "maxLength": 255 },
     { "id": "width", "dataType": "int", "default": 0, "maxLength": 6 },
     { "id": "height", "dataType": "int", "default": 0, "maxLength": 6 },
-    { "id": "original", "dataType": "tinyint", "default": 0 }
+    { "id": "original", "dataType": "int", "default": 0 }
   ]
 }
