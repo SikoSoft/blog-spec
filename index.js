@@ -22,6 +22,7 @@ const modelsList = [
   "entries",
   "filters_rules",
   "filters",
+  "images",
   "image_sizes",
   "roles_rights",
   "roles",
