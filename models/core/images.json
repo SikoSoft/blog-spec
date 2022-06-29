@@ -1,5 +1,5 @@
 {
-  "id": "image",
+  "id": "images",
   "attributes": [
     { "id": "file", "dataType": "varchar", "maxLength": 255 },
     { "id": "width", "dataType": "int", "default": 0, "maxLength": 6 },
