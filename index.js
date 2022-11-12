@@ -7,10 +7,6 @@ const settings = require("./settings.json");
 const typeMap = require("./typeMap.json");
 const blockTypes = require("./blockTypes.json");
 
-// I absofuckinglylutely hate that I have to hardcode a god damn list of files because
-// there is no fucking consistent supported way to import files from a directory, without
-// dragging in a fucking library for something as trivial as this
-// Webpack no longer supports polyfilling node packages!
 const modelsList = [
   "blocks_content_components_props",
   "blocks_content",

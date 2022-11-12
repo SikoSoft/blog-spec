@@ -119,5 +119,10 @@
     "listSource": "blocks",
     "default": 0,
     "size": 6
+  },
+  {
+    "id": "use_srcset",
+    "type": "toggle",
+    "default": 1
   }
 ]
